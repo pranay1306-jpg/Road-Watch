@@ -5,7 +5,7 @@ from app.database import Base
 class Issue(Base):
     __tablename__ = "issues"
 
-    id = Column(Integer, primary key=True, index=True)
+    id = Column(Integer, primary_key=True, index=True)
     title = Column(String, index=True)
     description = Column(Text)
     issue_type = Column(String, index=True)
@@ -22,7 +22,7 @@ class Issue(Base):
 class AreaSpending(Base):
     __tablename__ = "area_spending"
 
-    id = Column(Integer, primary key=True, index=True)
+    id = Column(Integer, primary_key=True, index=True)
     area = Column(String, unique=True, index=True)
     budget_allocated = Column(Float)
     budget_spent = Column(Float)
