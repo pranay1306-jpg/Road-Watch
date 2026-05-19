@@ -83,15 +83,4 @@ static_dir = os.path.join(os.path.dirname(__file__), "static")
 if not os.path.exists(static_dir):
     os.makedirs(static_dir)
 
-app.mount("/static", StaticFiles(directory=static_dir), name="static")
-
-@app.get("/")
-def read_root():
-    return FileResponse(os.path.join(static_dir, "index.html"))
-
-@app.get("/{page}")
-def read_page(page: str):
-    file_path = os.path.join(static_dir, f"{page}.html")
-    if os.path.exists(file_path):
-        return FileResponse(file_path)
-    return FileResponse(os.path.join(static_dir, "index.html"))
+app.mount("/", StaticFiles(directory=static_dir, html=True), name="static")
