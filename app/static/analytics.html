@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics & Transparency - RoadWatch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-brand">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+            RoadWatch
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="report.html">Report Issue</a></li>
+            <li><a href="issues.html">View Issues</a></li>
+            <li><a href="analytics.html" style="color: var(--primary)">Analytics</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div style="margin-bottom: 2.5rem; text-align: center;">
+            <h2 style="font-size: 2.5rem; color: var(--secondary);">City Analytics & Spending Transparency</h2>
+            <p style="color: var(--text-light); max-width: 600px; margin: 1rem auto 0;">Holding authorities accountable by tracking public spending alongside resolved infrastructure issues.</p>
+        </div>
+
+        <div class="loader" id="loader"></div>
+
+        <h3 style="margin-bottom: 1rem; color: var(--secondary);">Issue Summary</h3>
+        <div class="grid grid-cols-3" id="analyticsData" style="margin-bottom: 3rem;">
+            <div class="stat-card card">
+                <div class="stat-value">--</div>
+                <div class="stat-label">Server Offline</div>
+            </div>
+            <div class="stat-card card">
+                <div class="stat-value">--</div>
+                <div class="stat-label">Please install Python</div>
+            </div>
+        </div>
+
+        <h3 style="margin-bottom: 1rem; color: var(--secondary);">Ward-Wise Budget & Repair Data (Mock)</h3>
+        <div class="card" style="padding: 0; overflow: hidden;">
+            <div class="table-container" style="margin-top: 0; box-shadow: none; border-radius: 0;" id="spendingData">
+                <p style="padding: 2rem; text-align: center; color: var(--text-light)">Data cannot be loaded without the backend server.</p>
+            </div>
+        </div>
+        <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-light); text-align: center;">Note: The spending data is mocked for hackathon demonstration purposes to illustrate integration with government open-data portals.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 RoadWatch. A National Road Safety Hackathon Project.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

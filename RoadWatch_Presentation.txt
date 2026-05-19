@@ -1,0 +1,34 @@
+RoadWatch - Citizen-Powered Platform
+	Team: [Your Team Name]
+	Event: National Road Safety Hackathon 2026
+	Organizer: IIT Madras - RBG Labs
+The Challenge of Road Safety & Transparency
+	Hazardous Conditions: Poor road quality contributes to accidents.
+	Reporting Friction: Citizens lack a simple platform to report issues.
+	Opaque Maintenance: Limited transparency on public spending.
+	Delayed Action: Issues remain unresolved for months.
+Introducing RoadWatch
+	Citizen Reporting: Simple web interface to log road defects.
+	Live Tracking: Dashboard to view issues and track resolution status.
+	Spending Transparency: Bridge between municipal budgets and ground repairs.
+	Accessible to All: No complex logins required for reporting.
+Technical Architecture
+	Frontend Layer: HTML5, CSS3, Vanilla JS (No heavy frameworks).
+	Backend API Layer: Python & FastAPI for high performance.
+	Database Layer: SQLite with SQLAlchemy ORM.
+	Architecture Flow: Client Browser <-> REST APIs <-> DB Session.
+How RoadWatch Works (Demo Flow)
+	Step 1: Land on home page and learn about the mission.
+	Step 2: Submit details of a hazard via the Report form.
+	Step 3: Browse the Issues list with live filtering.
+	Step 4: Review Analytics and ward-level budget expenditures.
+Future Vision & Impact
+	Immediate Impact: Improves civic engagement and saves lives.
+	AI Prioritization: Machine Learning to categorize severity.
+	Computer Vision: Auto-verify pothole dimensions from photos.
+	Open Gov Integration: Connect with real municipal treasury APIs.
+Thank You!
+	Making our roads safer, together.
+	Contact Us: [Your Email / LinkedIn]
+	Live Demo: [Link to Demo or QR Code]
+	We are happy to take your questions!
