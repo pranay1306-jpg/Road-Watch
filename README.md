@@ -1,41 +1,38 @@
-# Hi, I'm Bongi Pranay 👋
+# RoadWatch
 
-Computer Science Engineering Student | AI/ML Enthusiast | Python Developer
+RoadWatch is a citizen-centric road safety platform developed for the National Road Safety Hackathon 2026. The platform enables users to report road hazards, track issue resolution status, and improve civic transparency through budget monitoring dashboards.
 
-## About Me
+## Features
 
-* 🎓 B.E. Computer Science and Engineering (Core)
-* 🏫 Sathyabama Institute of Science and Technology
-* 📊 CGPA: 8.2/10
-* 💻 Passionate about Artificial Intelligence, Machine Learning, and Software Development
-* 🌱 Currently learning advanced AI systems, agentic workflows, and scalable backend development
+* Report road hazards
+* Track issue resolution status
+* Ward-level budget transparency dashboard
+* Hazard filtering and search
+* Responsive user interface
+* REST API architecture
 
-## Technical Skills
+## Tech Stack
 
-Python • Java • C • SQL • MySQL
+* Python
+* FastAPI
+* SQLite
+* SQLAlchemy
+* HTML
+* CSS
+* JavaScript
 
-FastAPI • LangChain • LangGraph • SQLAlchemy
+## Problem Statement
 
-HTML • CSS • JavaScript
+Road hazards often go unreported or unresolved due to lack of visibility and accountability. RoadWatch bridges this gap by enabling citizens to actively participate in reporting issues while promoting transparency in public spending.
 
-Git • GitHub • FAISS • HuggingFace Embeddings • Gemini API
+## Future Improvements
 
-## Featured Projects
+* Real-time map integration
+* User authentication
+* Mobile application
+* Government department integration
+* AI-based hazard classification
 
-### RoadWatch
+## Author
 
-A civic-tech platform for reporting and tracking road hazards while improving transparency through budget tracking dashboards.
-
-### MultiAgentResearch
-
-A multi-agent AI system that performs research, debate, fact-checking, and automated intelligence report generation.
-
-### Content Forge AI
-
-An AI-powered content generation platform that automates script writing, captions, SEO keywords, hashtags, and content strategy.
-
-## Connect With Me
-
-LinkedIn: [www.linkedin.com/in/pranaybongi/](http://www.linkedin.com/in/pranaybongi/)
-
-Email: [pranay.bkumar5@gmail.com](mailto:pranay.bkumar5@gmail.com)
+Bongi Pranay
